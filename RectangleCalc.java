@@ -5,10 +5,10 @@ public class RectangleCalc {
         try{
             temp = Double.parseDouble(text);
         } catch (Exception e){
-            throw new NumberFormatException("Eingabe ungültig, bitte geben Sie Zahlen im Intervall [0, ∞].");
+            throw new NumberFormatException("Eingabe ungültig, bitte geben Sie Zahlen im Intervall [0, unendlich].");
         }
         if(temp < 0){
-            throw new NumberFormatException("Eingabe ungültig, bitte geben Sie Zahlen im Intervall [0, ∞].");
+            throw new NumberFormatException("Eingabe ungültig, bitte geben Sie Zahlen im Intervall [0, unendlich].");
         }
         return temp;
     }

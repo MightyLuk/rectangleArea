@@ -9,11 +9,11 @@ public class Main {
         System.out.println("Bitte geben Sie die zweite Variable ein!");
         String textB = sc.nextLine();
 
-        RectangleCalc ractangleCalc = new RectangleCalc();
+        RectangleCalc rectangleCalc = new RectangleCalc();
         try{
-            double a = ractangleCalc.getDoubleFromString(textA);
-            double b = ractangleCalc.getDoubleFromString(textB);
-            double area = ractangleCalc.calcRectangle(a, b);
+            double a = rectangleCalc.getDoubleFromString(textA);
+            double b = rectangleCalc.getDoubleFromString(textB);
+            double area = rectangleCalc.calcRectangle(a, b);
             System.out.printf("Die Fläche des Rechtecks beträgt: %f", area);
         } catch (Exception e){
             System.out.println("Es ist ein Fehler aufgetreten");

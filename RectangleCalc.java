@@ -15,6 +15,9 @@ public class RectangleCalc {
 
     public double calcRectangle(double a, double b){
         double area = a*b;
+        if(Double.isInfinite(area)){
+            throw new NumberFormatException("Infinte");
+        }
         return area;
     }
     

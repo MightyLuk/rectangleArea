@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
-        System.out.println("Bitte geben Sie die erste Variable ein!");
+        System.out.println("Bitte geben Sie die erste Seitenlänge ein!");
         String textA = sc.nextLine();
-        System.out.println("Bitte geben Sie die zweite Variable ein!");
+        System.out.println("Bitte geben Sie die zweite Seitenlänge ein!");
         String textB = sc.nextLine();
 
         RectangleCalc rectangleCalc = new RectangleCalc();

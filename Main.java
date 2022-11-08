@@ -14,7 +14,7 @@ public class Main {
             double a = rectangleCalc.getDoubleFromString(textA);
             double b = rectangleCalc.getDoubleFromString(textB);
             double area = rectangleCalc.calcRectangle(a, b);
-            System.out.printf("Die Fläche des Rechtecks beträgt: %f", area);
+            System.out.printf("Die Fläche des Rechtecks beträgt: %.4f cm", area);
         } catch (Exception e){
             System.out.println("Es ist ein Fehler aufgetreten");
             System.out.println(e.getMessage()); 
